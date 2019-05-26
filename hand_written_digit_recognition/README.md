@@ -17,3 +17,12 @@ into the mySubmit.csv
 
 ###### The part of code that enable to see the image of the digit has been commented out. Although it can be used by minor changes. Also if opencv is not installed, matplotlib can be used for the task.
 
+### Content of the folder:
+The folders consists of 
+#### digit_recognizer.py:
+This python file consists of the codes to manipulate dataset and make predictions for the testing data, or a new input data.
+For using it for an input data though, changes have to be done to take the input from the user. Or to read the input image, processs it to fit the appropriate size and then change the dimensions to a 1 dimentional array to be fed to the program.
+
+#### mySubmit.csv:
+This file consists of the predicted values recieved when the testing data was passed from the program.
+The file consists of two entries: 1. The ImageId-basically the image number in the test dataset. 2. Label-The predicted class(i.e predicted digit)

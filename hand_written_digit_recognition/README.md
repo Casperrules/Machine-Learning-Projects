@@ -25,4 +25,13 @@ For using it for an input data though, changes have to be done to take the input
 
 #### mySubmit.csv:
 This file consists of the predicted values recieved when the testing data was passed from the program.
-The file consists of two entries: 1. The ImageId-basically the image number in the test dataset. 2. Label-The predicted class(i.e predicted digit)
+The file consists of two entries: 1. The ImageId-basically the image number in the test dataset. 2. Label-The predicted class(i.e predicted digit). This file is uploded to kaggle for evaluation.
+#### test_train_data.zip:
+This zip file contains two csv files
+###### train.csv:
+This file contains prelabeled images. Data from this file is used to train the classifier. Consists of 42000 rows (i.e. 42000 28x28 grescaled images of digits)
+###### test.csv:
+This file contains data for 28000 images of digits. The data from this file is used to test the predictions of the classifier.
+
+### Performance:
+The submitted file gives a score of 94.071%
